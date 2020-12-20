@@ -41,8 +41,8 @@ if __name__ == '__main__':
     # 测试处理前 5 章的题目数据
 
     file_cnt = 6  # 文件数量，目前包括绪论和后五章总共 6 个
-    problems_path = './outputs/problems_image_link.json'
-    answered_path = './outputs/problems_answered.json'
+    problems_path = 'outputs/2020/problems_image_link.json'
+    answered_path = 'outputs/2020/problems_answered.json'
 
     answers = rx.from_(
         range(file_cnt)
